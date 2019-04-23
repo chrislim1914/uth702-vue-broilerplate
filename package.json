@@ -1,7 +1,7 @@
 {
-  "name": "cook",
+  "name": "uth702_vue_template",
   "version": "1.0.0",
-  "description": "Cook Project",
+  "description": "A Vue template for UTH702 Web Team",
   "author": "UTH 702 INC.",
   "private": true,
   "scripts": {
