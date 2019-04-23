@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 import {
-  employee
+  user
 } from '@/api'
 
 /**
@@ -12,7 +12,7 @@ import {
  * @type {object}
  */
 const state = {
-  employee: {},
+  user: {},
   responseData: {}
 }
 
@@ -21,27 +21,18 @@ const state = {
  * @type {object}
  */
 const actions = {
-  signinEmployee: async (context, payload) => {
+  signinUser: async (context, payload) => {
     try {
-      var resp = await axios.post(employee.signin, payload)
-      context.commit('updateResponseData', resp.data)
+      var resp = await axios.post(user.signin, payload)
+      context.commit('setUser', resp.data)
     } catch (error) {
       context.commit('updateResponseData', 'General Error')
     }
   },
-  signupEmployee: async (context, payload) => {
+  signupUser: async (context, payload) => {
     try {
-      var resp = await axios.post(employee.signup, payload)
+      var resp = await axios.post(user.signup, payload)
       context.commit('updateResponseData', resp.data)
-    } catch (error) {
-      context.commit('updateResponseData', 'General Error')
-    }
-  },
-  retrieveEmployeeInfo: async (context, payload) => {
-    try {
-      axios.defaults.headers.common['Authorization'] = 'Bearer ' + payload.token
-      var resp = await axios.get(employee.employeeInfo)
-      context.commit('setEmployee', resp.data)
     } catch (error) {
       context.commit('updateResponseData', 'General Error')
     }
@@ -58,8 +49,8 @@ const mutations = {
      * @param state
      * @param data
      */
-  setEmployee: (state, data) => {
-    state.employee = data
+  setUser: (state, data) => {
+    state.user = data
   },
 
   /**

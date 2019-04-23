@@ -6,8 +6,7 @@ import {
   apiURL
 } from '@/config.js'
 
-export const employee = {
-  signin: apiURL + '/sample-route',
-  signup: apiURL + '/sample-route',
-  employeeInfo: apiURL + '/sample-route'
+export const user = {
+  signin: apiURL + '/login',
+  signup: apiURL + '/register'
 }
