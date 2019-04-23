@@ -1,8 +1,8 @@
 {
-  "name": "uth702_vue_template",
+  "name": "cook",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Daniel Sarabusing <daniels.uth702@gmail.com>",
+  "description": "Cook Project",
+  "author": "UTH 702 INC.",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

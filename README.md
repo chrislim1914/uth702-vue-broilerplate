@@ -1,21 +1,12 @@
-# uth702_vue_template
+# UTH702 VUE BOILERPLATE
 
-> A Vue.js project
+> a starter boilerplate made out of Vue.js for the web team of UTH 702.
 
-## Build Setup
+## Packages
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1.  node-sass
+2.  sass-loader
+3.  style-loader
+4.  axios
+5.  vuex
+6.  vue-router
