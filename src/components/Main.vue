@@ -1,4 +1,5 @@
 <template>
+  <!-- app-main -->
   <div id="app-main">
     <h1>Hello, app</h1>
   </div>
@@ -6,10 +7,10 @@
 
 <script>
 export default {
-  name: 'UnknownComponent',
+  name: 'MainComponent',
   data () {
     return {
-
+      // local reactive data here...
     }
   }
 }
