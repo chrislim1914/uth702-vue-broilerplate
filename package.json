@@ -1,7 +1,7 @@
 {
-  "name": "uth702_vue_template",
+  "name": "m.gobit",
   "version": "1.0.0",
-  "description": "A Vue template for UTH702 Web Team",
+  "description": "A mobile view app for gobit.me",
   "author": "UTH 702 INC.",
   "private": true,
   "scripts": {

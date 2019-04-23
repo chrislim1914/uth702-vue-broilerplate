@@ -1,7 +1,17 @@
-# This is where we segregate all global vue components
+## Globals
 
-# Example of Global Components
+Globals folder is where we segregate all global vue components
 
-## Dialogs
-## Carousel
-## Header/Navbar
+## Examples
+
+Here are some sample of a global vue component
+
+```bash
+Footer
+Dialogs
+Header/Navbar
+```
+
+## Contributing
+&emsp; Every uth702 web developers are welcome to contribute to the project, make sure to pull the updates first
+before pushing a new update.
